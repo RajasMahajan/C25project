@@ -65,7 +65,7 @@ function draw() {
 	rect(pos2.x,pos2.y,20,100);
 	imageMode(CENTER);
 	image(paperI,ball.position.x,ball.position.y-15,50,50);
-	image(dustI,600,550,350,300);
+	image(dustI,600,530,350,300);
   drawSprites();
 }
 
